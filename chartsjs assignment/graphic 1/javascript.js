@@ -23,7 +23,11 @@ var myChart = new Chart(ctx, {
             subtitle: {
                 display: true,
                 text: 'Walt Disney Studios Motion Pictures distrubuted nearly half of the year\s highest grossing movies. Movies distributed by Disney are highlighted in red.'
-            }
+            }, 
+            footer: {
+                display: true,
+                text: 'Source: Box Office Mojo'
+            } 
         },
         scales: {
             y: {
